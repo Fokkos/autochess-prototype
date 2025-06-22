@@ -23,3 +23,4 @@ func _on_unit_type_selected(index: int):
 
 func _on_start_game_pressed():
 	print("Start Game pressed! (placeholder)")
+	GameState.game_ready = true

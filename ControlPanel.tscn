@@ -6,8 +6,8 @@
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_right = -994.0
-offset_bottom = -511.0
+offset_right = -990.0
+offset_bottom = -457.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_xrwon")
@@ -45,9 +45,11 @@ popup/item_0/text = "Sword"
 popup/item_0/id = 0
 popup/item_1/text = "Axe"
 popup/item_1/id = 1
-popup/item_2/text = "Lance"
+popup/item_2/text = "Bow"
 popup/item_2/id = 2
 
 [node name="StartButton" type="Button" parent="VBoxContainer"]
 layout_mode = 2
 text = "Start"
+
+[connection signal="pressed" from="VBoxContainer/StartButton" to="." method="_on_start_button_pressed"]
