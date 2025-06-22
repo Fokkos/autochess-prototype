@@ -1,0 +1,53 @@
+[gd_scene load_steps=2 format=3 uid="uid://djs842rcth10x"]
+
+[ext_resource type="Script" uid="uid://ctoo0twmwpl3o" path="res://ControlPanel.gd" id="1_xrwon"]
+
+[node name="ControlPanel" type="Panel"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = -994.0
+offset_bottom = -511.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_xrwon")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -55.5
+offset_top = -33.0
+offset_right = 55.5
+offset_bottom = 33.0
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
+
+[node name="ChangeSidesButton" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "Change Sides"
+
+[node name="ChangeSidesLabel" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "User"
+horizontal_alignment = 1
+clip_text = true
+
+[node name="UnitTypeSelector" type="OptionButton" parent="VBoxContainer"]
+layout_mode = 2
+alignment = 1
+item_count = 3
+popup/item_0/text = "Sword"
+popup/item_0/id = 0
+popup/item_1/text = "Axe"
+popup/item_1/id = 1
+popup/item_2/text = "Lance"
+popup/item_2/id = 2
+
+[node name="StartButton" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "Start"

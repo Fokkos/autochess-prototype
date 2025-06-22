@@ -1,0 +1,31 @@
+[gd_scene load_steps=5 format=3 uid="uid://cibdu1jpvy521"]
+
+[ext_resource type="Script" uid="uid://dlityquwh2sxx" path="res://Unit.gd" id="1_c58w5"]
+[ext_resource type="Texture2D" uid="uid://c86flocftfr2n" path="res://sprites/sword.png" id="2_ypl2c"]
+
+[sub_resource type="Gradient" id="Gradient_ypl2c"]
+colors = PackedColorArray(0, 0.509804, 0, 1, 0.263581, 0.627952, 0.22795, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_lqx2h"]
+gradient = SubResource("Gradient_ypl2c")
+width = 58
+height = 4
+
+[node name="Unit" type="Node2D"]
+z_index = 1
+script = ExtResource("1_c58w5")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, 6)
+texture = ExtResource("2_ypl2c")
+
+[node name="HPBar" type="TextureProgressBar" parent="."]
+z_index = 2
+custom_minimum_size = Vector2(40, 6)
+offset_left = -28.0
+offset_top = -24.0
+offset_right = 30.0
+offset_bottom = -16.0
+max_value = 10.0
+value = 10.0
+texture_progress = SubResource("GradientTexture2D_lqx2h")
