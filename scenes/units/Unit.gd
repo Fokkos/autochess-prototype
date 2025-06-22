@@ -34,19 +34,19 @@ func init(_unit_type: String, place_enemies: bool):
 	
 	match unit_type:
 		"Sword":
-			sprite.texture = load("res://sprites/sword.png")
+			sprite.texture = load("res://scenes/units/assets/sword.png")
 			attack = 4
 			attack_speed = 8
 			movement_speed = 5
 			range = 1
 		"Axe":
-			sprite.texture = load("res://sprites/axe.png")
+			sprite.texture = load("res://scenes/units/assets/axe.png")
 			attack = 8
 			attack_speed = 3
 			movement_speed = 3
 			range = 0.75
 		"Bow":
-			sprite.texture = load("res://sprites/bow.png")
+			sprite.texture = load("res://scenes/units/assets/bow.png")
 			attack = 6
 			attack_speed = 1
 			movement_speed = 3
@@ -88,7 +88,6 @@ func _process(delta):
 				else:
 					state = UnitState.ATTACK
 			UnitState.ATTACK:
-				print("attack!")
 				# Every `attack_speed` ticks, do `attack` damage to the targeted unit
 				if not is_instance_valid(current_target):
 					state = UnitState.IDLE

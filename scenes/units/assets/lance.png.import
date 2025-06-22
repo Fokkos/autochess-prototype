@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b2if7xfy8g2ng"
-path="res://.godot/imported/axe.png-7ad8fa60a528d53f2a9596e2cbdc2634.ctex"
+uid="uid://cnomaw5ka4037"
+path="res://.godot/imported/lance.png-8bdfb9b466e17f1123f19d9dfc75f452.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/axe.png"
-dest_files=["res://.godot/imported/axe.png-7ad8fa60a528d53f2a9596e2cbdc2634.ctex"]
+source_file="res://scenes/units/assets/lance.png"
+dest_files=["res://.godot/imported/lance.png-8bdfb9b466e17f1123f19d9dfc75f452.ctex"]
 
 [params]
 

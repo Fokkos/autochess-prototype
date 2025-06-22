@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://cq4w8xbfpwp1n"]
 
-[ext_resource type="Script" uid="uid://ccaspsrqc2g12" path="res://Grid.gd" id="1_a433f"]
-[ext_resource type="PackedScene" uid="uid://djs842rcth10x" path="res://ControlPanel.tscn" id="2_84v8o"]
+[ext_resource type="Script" uid="uid://ccaspsrqc2g12" path="res://scenes/common/Grid.gd" id="1_a433f"]
+[ext_resource type="PackedScene" uid="uid://djs842rcth10x" path="res://ui/ControlPanel.tscn" id="2_84v8o"]
 
 [node name="Control" type="Control"]
 layout_mode = 3

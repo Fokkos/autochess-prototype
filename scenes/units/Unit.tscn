@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://cibdu1jpvy521"]
 
-[ext_resource type="Script" uid="uid://dlityquwh2sxx" path="res://Unit.gd" id="1_c58w5"]
-[ext_resource type="Texture2D" uid="uid://c86flocftfr2n" path="res://sprites/sword.png" id="2_ypl2c"]
+[ext_resource type="Script" uid="uid://dlityquwh2sxx" path="res://scenes/units/Unit.gd" id="1_c58w5"]
+[ext_resource type="Texture2D" uid="uid://c86flocftfr2n" path="res://scenes/units/assets/sword.png" id="2_ypl2c"]
 
 [sub_resource type="Gradient" id="Gradient_ypl2c"]
 colors = PackedColorArray(0, 0.509804, 0, 1, 0.263581, 0.627952, 0.22795, 1)

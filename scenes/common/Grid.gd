@@ -2,10 +2,10 @@
 extends Control
 
 const GRID_SIZE := 10
-const TILE_SCENE := preload("res://TileButton.tscn")
+const TILE_SCENE := preload("res://scenes/common/TileButton.tscn")
 
 @onready var control_panel = $UI
-@onready var unit_scene = preload("res://Unit.tscn")
+@onready var unit_scene = preload("res://scenes/units/Unit.tscn")
 
 var units := {}  # Dictionary to map (x, y) to units
 

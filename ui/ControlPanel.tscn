@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://djs842rcth10x"]
 
-[ext_resource type="Script" uid="uid://ctoo0twmwpl3o" path="res://ControlPanel.gd" id="1_xrwon"]
+[ext_resource type="Script" uid="uid://ctoo0twmwpl3o" path="res://ui/ControlPanel.gd" id="1_xrwon"]
 
 [node name="ControlPanel" type="Panel"]
 anchors_preset = 15

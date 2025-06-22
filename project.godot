@@ -13,9 +13,8 @@ config_version=5
 config/name="grid"
 run/main_scene="uid://cq4w8xbfpwp1n"
 config/features=PackedStringArray("4.4", "Forward Plus")
-config/icon="res://icon.svg"
 
 [autoload]
 
-GameState="*res://GameState.gd"
-BattleManager="*res://BattleManager.gd"
+GameState="*res://globals/GameState.gd"
+BattleManager="*res://globals/BattleManager.gd"
