@@ -7,6 +7,7 @@ enum UnitState { IDLE, MOVE_TO_TARGET, ATTACK, DEAD }
 @export var attack_speed: int = 10
 @export var range: float = 1 # How many squares can this unit attack from?
 @export var team: int = 0 # 0 = player, 1 = enemy
+@export var coordinates:= Vector2i(0, 0)
 
 var unit_size: int = 64 # Units are 64*64px
 var unit_type: String
