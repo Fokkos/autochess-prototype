@@ -1,4 +1,26 @@
-[gd_scene format=3 uid="uid://cvhuqg5rw07pu"]
+[gd_scene load_steps=4 format=3 uid="uid://cvhuqg5rw07pu"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_snloo"]
+bg_color = Color(0, 0, 0, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xjytp"]
+bg_color = Color(0.281187, 0.281187, 0.281187, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(1, 1, 1, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_gaa0p"]
+bg_color = Color(0, 0, 0, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
 
 [node name="Button" type="Button"]
 custom_minimum_size = Vector2(64, 64)
@@ -6,3 +28,6 @@ offset_right = 149.0
 offset_bottom = 149.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
+theme_override_styles/focus = SubResource("StyleBoxFlat_snloo")
+theme_override_styles/hover = SubResource("StyleBoxFlat_xjytp")
+theme_override_styles/normal = SubResource("StyleBoxFlat_gaa0p")

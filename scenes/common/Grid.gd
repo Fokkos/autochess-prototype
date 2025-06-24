@@ -9,7 +9,6 @@ const TILE_SCENE := preload("res://scenes/common/TileButton.tscn")
 
 var units := {}  # Dictionary to map (x, y) to units
 
-
 func _ready():
 	var grid = $GridContainer
 	for y in range(GRID_SIZE):
@@ -47,3 +46,5 @@ func _on_tile_pressed(x: int, y: int) -> void:
 		print("Spawned unit at (%d, %d)" % [x, y])
 	else:
 		print("Click in allowed row only")
+	
+	

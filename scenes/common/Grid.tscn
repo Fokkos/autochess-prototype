@@ -20,6 +20,8 @@ offset_top = 30.0
 offset_right = 40.0
 offset_bottom = 70.0
 grow_horizontal = 2
+theme_override_constants/h_separation = 0
+theme_override_constants/v_separation = 0
 columns = 10
 
 [node name="UI" parent="." instance=ExtResource("2_84v8o")]
